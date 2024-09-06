@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: rgb(238, 230, 163);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+.logo {
+    width: 90px;
+    justify-content: left;
+}
+
+.barrita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: cover;
+    height: 90px;
+    font-family: 'Poppins', sans-serif;
+
+    padding: 10px;
+    text-align: center;
+    }
+
+.alinear {
+    text-align: right;
+}
+
+.barrita a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+.barrita a:hover {
+        color: rgb(169, 66, 1);
+    }
+
+#Carrito   {
+        height: 30px;
+       }
+
+.Iniciar {
+    margin: 0 15px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FDAE15;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+
+.Iniciar:hover {
+    color: rgb(255, 255, 255);
+    background-color: #5F4209;
+    
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca {
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(210, 161, 88, 0.667);
+}
+
+.imgbuscador {
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.imgbuscador:hover {
+    transform: scale(1.1);
+}
+
+
+
+.slider-frame {
+	width: 400px;
+    height: auto;
+	margin-right: 130px;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.titulo {
+    font-size: 80px;
+    font-family: 'Abril Fatface', serif;
+    margin-left: 150px;
+    color: #3D2915;
+    margin-bottom: 0;
+}
+
+.ordenar {
+    width: 200px;
+    font-family: 'Poppins', serif;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FDAE15;
+    color: black;
+    border: none;
+    font-size: 30px;
+
+}
+
+.ordenar:hover {
+    color: rgb(255, 255, 255);
+    background-color: #5F4209;
+
+}
+
+.productos {
+    display: flex;
+    font-family: 'Abril Fatface', serif;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    color: #291908;
+}
+
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.filtros {
+    width: 20%;
+    padding: 10px;
+    background-color: #d6a618c9;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.filtrostitulo {
+    display: flex;
+    font-family: 'Abril Fatface', serif;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    color: #291908;
+}
+
+.filtros ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #291908;
+    margin-left: 10px;
+}
+
+.productosgeneral {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.Cuadradoprodu {
+    background-color: #6b4000a0;
+    border-radius: 15px;
+    padding: 10px;
+    width: calc(30% - 20px);
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.Cuadradoprodu h3 {
+    color: #291908;
+    font-family: 'Abril Fatface', serif;
+    font-size: 18px;
+}
+
+.Cuadradoprodu h6 {
+    color: #291908;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.Cuadradoprodu img {
+    max-width: 100%;
+    height: auto;
+}
+
+.verproducto {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #311f00;
+    color: #fff;
+}
+
+.verproducto:hover {
+    color: rgb(205, 142, 7);
+    background-color: #5F4209;
+}
+
+
